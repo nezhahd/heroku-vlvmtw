@@ -1,6 +1,8 @@
 有很多反馈说heroku被秒封！建议先用其他的heroku项目或先避开当前的敏感期
 
+
 请下载以上代码，使用Github进行代码托管并连接heroku
+![c14a9fd3dfe0361393dcc7cd693cc36](https://user-images.githubusercontent.com/107276912/173172932-142f6c9a-7f7f-424b-a178-aa43772a7511.png)
 
 
 直接点击绿色的`Use this template`创建自己名称的项目，workers反代与pages反代及自定义域，配置文件信息等相关操作拓展教程，请关注：[博客视频教程](https://ygkkk.blogspot.com/2022/05/heroku-cloudflare-workers-pages.html)

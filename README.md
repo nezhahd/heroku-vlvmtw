@@ -134,6 +134,3 @@ addEventListener(
 ```
 </details>
 
-
-参考项目
-[heshan2/heroku-xray-server](https://github.com/heshan2/heroku-xray-server)

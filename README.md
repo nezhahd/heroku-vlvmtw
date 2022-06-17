@@ -1,6 +1,53 @@
 ### 请下载以上代码，使用Github进行代码托管并连接heroku
 ![c14a9fd3dfe0361393dcc7cd693cc36](https://user-images.githubusercontent.com/107276912/173172932-142f6c9a-7f7f-424b-a178-aa43772a7511.png)
 
+一、操作步骤：
+
+1、在浏览器复制链接   https://dashboard.heroku.com/new?template= 加上你自定义的项目链接
+
+https://dashboard.heroku.com/new?template=https://github.com/nezhahd/heroku-vlvmtw
+
+2、之前没有登录记录的话，会先提示注册并或登录Heroku界面，大家自己注册或者登录下
+
+
+
+3、Heroku app名称与国家随意，最后设置图如下
+
+
+
+4、输入UUID，建议使用V2rayN等工具生成，点击Deploy app，几秒种后就完成安装。
+
+-------------------------------------------------------------------------------------------
+
+二、关于为什么套CF以及满足自选IP/域名的条件解答（TLS开启）
+
+
+
+三、客户端配置如下（V2rayN）
+
+22.6.17待更新
+
+协议：(vless/vmess/trojan)-ws
+
+地址：app.heroku.com（自选IP/域名）
+
+端口：443
+
+用户ID/密码：自定义的UUID
+
+传输协议：ws
+
+伪装host：app.heroku.com（workers或pages反代/自定义域）
+
+路径path：留空或填/
+
+传输安全：tls
+
+SNI：app.heroku.com（workers或pages反代/自定义域）
+
+其他设置保持默认不变！！！
+
+
 
 ### workers反代与pages反代及自定义域，配置文件信息等相关操作拓展教程，请关注：[博客视频教程](https://ygkkk.blogspot.com/2022/05/heroku-cloudflare-workers-pages.html)
 
